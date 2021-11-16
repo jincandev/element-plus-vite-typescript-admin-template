@@ -1,0 +1,279 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2606371 */
+  src: url('iconfont.woff2?t=1623336526889') format('woff2'),
+       url('iconfont.woff?t=1623336526889') format('woff'),
+       url('iconfont.ttf?t=1623336526889') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-atm_icon:before {
+  content: "\e619";
+}
+
+.icon-bank_icon:before {
+  content: "\e61a";
+}
+
+.icon-hospital_icon:before {
+  content: "\e61b";
+}
+
+.icon-park_icon:before {
+  content: "\e61c";
+}
+
+.icon-universityl_icon:before {
+  content: "\e61d";
+}
+
+.icon-pharmacy_icon:before {
+  content: "\e61e";
+}
+
+.icon-kindergaetenl_icon:before {
+  content: "\e61f";
+}
+
+.icon-coffee_icon:before {
+  content: "\e620";
+}
+
+.icon-gym_icon:before {
+  content: "\e621";
+}
+
+.icon-metro_icon:before {
+  content: "\e622";
+}
+
+.icon-bus_icon:before {
+  content: "\e623";
+}
+
+.icon-restaurant_icon:before {
+  content: "\e624";
+}
+
+.icon-bazaar_icon:before {
+  content: "\e625";
+}
+
+.icon-gymnasium_icon:before {
+  content: "\e626";
+}
+
+.icon-supermarket_icon:before {
+  content: "\e627";
+}
+
+.icon-cinema_icon:before {
+  content: "\e628";
+}
+
+.icon-middle_schooll_icon:before {
+  content: "\e629";
+}
+
+.icon-mall_icon:before {
+  content: "\e62a";
+}
+
+.icon-xiaoxue:before {
+  content: "\e62c";
+}
+
+.icon-touxiangshenpi:before {
+  content: "\e62e";
+}
+
+.icon-icon_close:before {
+  content: "\e62b";
+}
+
+.icon-icon_date:before {
+  content: "\e62d";
+}
+
+.icon-icon_more:before {
+  content: "\e62f";
+}
+
+.icon-icon_list:before {
+  content: "\e630";
+}
+
+.icon-time-circle:before {
+  content: "\e631";
+}
+
+.icon-icon_plus:before {
+  content: "\e632";
+}
+
+.icon-icon_qrcode:before {
+  content: "\e633";
+}
+
+.icon-icon_analyse:before {
+  content: "\e634";
+}
+
+.icon-icon_bell:before {
+  content: "\e635";
+}
+
+.icon-icon_operating:before {
+  content: "\e636";
+}
+
+.icon-icon_board:before {
+  content: "\e637";
+}
+
+.icon-icon_class:before {
+  content: "\e638";
+}
+
+.icon-icon_uers:before {
+  content: "\e639";
+}
+
+.icon-icon_setting:before {
+  content: "\e63a";
+}
+
+.icon-icon_ad:before {
+  content: "\e63b";
+}
+
+.icon-icon_ab_test:before {
+  content: "\e63c";
+}
+
+.icon-icon_workflow:before {
+  content: "\e63d";
+}
+
+.icon-icon_management:before {
+  content: "\e63e";
+}
+
+.icon-icon_image:before {
+  content: "\e63f";
+}
+
+.icon-icon_push:before {
+  content: "\e640";
+}
+
+.icon-shishijiankong:before {
+  content: "\e601";
+}
+
+.icon-baojingguanli:before {
+  content: "\e602";
+}
+
+.icon-lishishuju:before {
+  content: "\e603";
+}
+
+.icon-gongdiguanli:before {
+  content: "\e604";
+}
+
+.icon-gongzuoxietonggenzongdanguanli:before {
+  content: "\e605";
+}
+
+.icon-jianceshebeiguanli:before {
+  content: "\e606";
+}
+
+.icon-xunchaguanli:before {
+  content: "\e607";
+}
+
+.icon-juecezhichi:before {
+  content: "\e608";
+}
+
+.icon-kaohefangkongguanli:before {
+  content: "\e609";
+}
+
+.icon-shujuchaxun:before {
+  content: "\e60a";
+}
+
+.icon-paifangkouguanli:before {
+  content: "\e60b";
+}
+
+.icon-paifangxukezhengshu:before {
+  content: "\e60c";
+}
+
+.icon-zhilishebeiguanli:before {
+  content: "\e60d";
+}
+
+.icon-duchazhifaguanli:before {
+  content: "\e60e";
+}
+
+.icon-wentigenzongguanli:before {
+  content: "\e60f";
+}
+
+.icon-shishigongkuang:before {
+  content: "\e610";
+}
+
+.icon-xitongguanli:before {
+  content: "\e611";
+}
+
+.icon-youyanyuanguanli:before {
+  content: "\e612";
+}
+
+.icon-zonghegailan:before {
+  content: "\e613";
+}
+
+.icon-xitongguanli1:before {
+  content: "\e614";
+}
+
+.icon-yunweiguanli:before {
+  content: "\e615";
+}
+
+.icon-wentigenzongguanli1:before {
+  content: "\e616";
+}
+
+.icon-duchazhifaguanli1:before {
+  content: "\e617";
+}
+
+.icon-shujuguanli:before {
+  content: "\e618";
+}
+
+.icon-danganguanli:before {
+  content: "\e641";
+}
+
+.icon-yupanpinggu:before {
+  content: "\e642";
+}
+
