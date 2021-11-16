@@ -30,4 +30,4 @@ Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
 
 [Element Plus Documents - Zh-CN](https://element-plus.gitee.io/)
 Or
-[Element Plus])(https://element-plus.org/)
+[Element Plus](https://element-plus.org/)
