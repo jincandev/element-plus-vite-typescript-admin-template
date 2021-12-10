@@ -57,7 +57,7 @@
 import { computed, nextTick } from "vue";
 import { useStore } from "vuex";
 import { useRoute, useRouter } from "vue-router";
-import { Fold, Expand, CloseBold, UserFilled, Rank } from "@element-plus/icons";
+import { Fold, Expand, CloseBold, UserFilled, Rank } from "@element-plus/icons-vue";
 
 import AvatarImage from "@/assets/avatar.png";
 const store = useStore();

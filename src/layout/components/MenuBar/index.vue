@@ -38,7 +38,7 @@ const routes = computed(() => {
     // 一层菜单提升
     if (route.children?.length === 1) {
       const child = route.children[0];
-      const path = [route.path, child.path].join("/").replaceAll(/\//g, "/");
+      const path = [route.path, child.path].join("/").replaceAll(/\/+/g, "/");
       return {
         ...child,
         path,

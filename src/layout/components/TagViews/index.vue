@@ -59,7 +59,7 @@ import {
   CaretRight,
   ArrowDownBold,
   Close, Back, Right, Delete
-} from "@element-plus/icons";
+} from "@element-plus/icons-vue";
 
 import settings from "@/settings";
 
@@ -116,15 +116,15 @@ onMounted(() => {
 });
 
 const goPage = (view, index) => {
-  const containerWidth = scrollbar.value.wrap.offsetWidth;
+  const containerWidth = scrollbar.value.wrap$.offsetWidth;
   const target =
-    scrollbar.value.wrap.querySelectorAll(".view-tag")[index] || {};
+    scrollbar.value.wrap$.querySelectorAll(".view-tag")[index] || {};
   const toLeft = (target.offsetLeft || 0) - containerWidth / 2;
-  const dir = toLeft - scrollbar.value.wrap.scrollLeft;
+  const dir = toLeft - scrollbar.value.wrap$.scrollLeft;
   if (dir === 0) {
     return;
   }
-  scrollToLeftAnimate(scrollbar.value.wrap, dir);
+  scrollToLeftAnimate(scrollbar.value.wrap$, dir);
   if (view?.path) {
     router.push({
       path: view.path,

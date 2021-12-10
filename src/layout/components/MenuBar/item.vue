@@ -49,7 +49,7 @@ const loadRoutes = (routes) => {
           const child = route.children[0];
           const path = [route.path, child.path]
             .join("/")
-            .replaceAll(/\//g, "/");
+            .replace(/\/+/g, "/");
           return {
             ...child,
             path,
@@ -103,7 +103,7 @@ export default {
     const resolvePath = (subpath) => {
       return [props.basePath || "/", subpath]
         .join("/")
-        .replaceAll(/\/{2,}/g, "/");
+        .replace(/\/+/g, "/");
     };
 
     return {

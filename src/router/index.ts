@@ -1,5 +1,6 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
-import { Odometer } from "@element-plus/icons"
+import { Odometer } from "@element-plus/icons-vue"
+import { markRaw } from 'vue'
 
 import Layout from '@/layout/index.vue'
 
@@ -27,7 +28,7 @@ export const constantRoutes: RouteRecordRaw[] = [
                 meta: {
                     title: "控制台",
                     affix: true,
-                    icon: Odometer
+                    icon: markRaw(Odometer)
                 }
             }
         ]

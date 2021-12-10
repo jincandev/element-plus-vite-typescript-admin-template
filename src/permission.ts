@@ -32,6 +32,7 @@ router.beforeEach(async (to, from, next) => {
     for(let route of testaccessRoutes) {
         router.addRoute(route)
     }
+    return next()
     // 测试结束
     NProgress.start()
     // 设置页面标题

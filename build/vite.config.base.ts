@@ -1,6 +1,9 @@
 import path from "path";
 import vue from "@vitejs/plugin-vue";
 import legacy from "@vitejs/plugin-legacy";
+import AutoImport from 'unplugin-auto-import/vite'
+import Components from 'unplugin-vue-components/vite'
+import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 import packageJson from "../package.json";
 import { UserConfig } from "vite";
@@ -37,7 +40,13 @@ const config: UserConfig = {
     legacy({
       targets: ["defaults", "not IE 11"],
       renderLegacyChunks: false,  // 如果使用esbuild且不是ssr，这里必须为false
-    })
+    }),
+    AutoImport({
+      resolvers: [ElementPlusResolver()],
+    }),
+    Components({
+      resolvers: [ElementPlusResolver()],
+    }),
   ],
   build: {
     rollupOptions: {

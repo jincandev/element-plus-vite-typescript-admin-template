@@ -3,7 +3,6 @@ import { createI18n } from "vue-i18n";
 import ElementUI from "element-plus";
 
 import "normalize.css/normalize.css";
-import "element-plus/dist/index.css";
 
 // 全局样式
 import "@/styles/iconfont/iconfont.css";
